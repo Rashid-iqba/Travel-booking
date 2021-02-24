@@ -1,0 +1,39 @@
+# To create project
+
+django-admin startproject  projectname
+
+
+#To create App foldes under the project folder
+
+python3 manage.py startapp Appname
+
+
+#for miration
+
+python3 manage.py migrate
+
+
+
+# TO run the server
+
+python3 manage.py runserver
+
+#To make hai dynamoc page in django 
+
+django serch url in urls.py in main folder
+
+main folder point out app/urls.py folder which is app folder and 
+
+app/urls.py serch views.py in app folder
+
+and now we have to make a template folder(we can change the name also)
+
+and we have to mention template file details in settings.py in main folder
+
+**for Example
+{
+     'DIRS': [os.path.join(BASE_DIR,'templates/or any other name also')], 'DIRS': [os.path.join(BASE_DIR,'templates')],
+}
+and make a html page in template folder
+
+when we use template(which is dynamic page) we have to render that page
