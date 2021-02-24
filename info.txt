@@ -37,3 +37,4 @@ and we have to mention template file details in settings.py in main folder
 and make a html page in template folder
 
 when we use template(which is dynamic page) we have to render that page
+   
