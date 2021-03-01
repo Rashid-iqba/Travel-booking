@@ -78,10 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djbase',
-        'USER': 'Iqbal',
-        'PASSWORD': 'Riqbal295@',
+        'USER': 'iqbal',
+        'PASSWORD': 'Riqbal295@mysql',
         'HOST': 'localhost',
-        'PORT': '3305'
+        'PORT': '3306'
     }
 }
 
